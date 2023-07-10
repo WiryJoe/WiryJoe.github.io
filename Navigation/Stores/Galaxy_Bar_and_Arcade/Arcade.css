@@ -1,0 +1,108 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+    margin: 0px;
+    background-image: url(Galaxy.jpg);
+}
+
+header {
+background-color: hsl(123, 72%, 43%);
+text-align: center;
+block-size: auto;
+}
+h1 {
+    font-size: 3em;
+}
+
+.navigation ul{
+    
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    text-align:center;
+    position: relative;
+    display: inline-block;
+    
+}
+.navigation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: hsl(209, 73%, 61%);
+}
+.navigation li{
+    float: left;
+}
+.navigation div{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(209, 73%, 41%);
+}
+
+main{
+    margin: 0px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.welcome{
+  background-color: hsl(0, 0%, 43%);
+}
+
+.description{
+  background-color: hsl(0, 0%, 50%);
+  padding: 30px;
+}
+
+.conclusion{
+  background-color: hsl(0, 0%, 50%);
+  padding: 30px;
+}
+
+#box1{
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  text-align: center;
+  font-size: 7em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+  width: 40%;
+  animation-name: you;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#box2{
+  width: 250px;
+  height: 250px;
+  background-color: brown;
+  text-align: center;
+  font-size: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+  width: 40%;
+  animation-name: enemy;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes you{
+  to{
+    transform: translateX(25%);
+  }
+}
+
+@keyframes enemy{
+  to{
+    transform: translateX(-25%);
+  }
+}

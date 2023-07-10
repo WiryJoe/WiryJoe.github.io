@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(253, 210, 181);
+    margin: 0px;
+}
+
+header {
+background-color: hsl(123, 72%, 43%);
+text-align: center;
+block-size: auto;
+}
+h1 {
+    font-size: 3em;
+}
+
+.navigation ul{
+    
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    text-align:center;
+    position: relative;
+    display: inline-block;
+    
+}
+.navigation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: hsl(209, 73%, 61%);
+}
+.navigation li{
+    float: left;
+}
+.navigation div{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(209, 73%, 41%);
+}
+
+main{
+    margin: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.dialogue{
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  overflow: none;
+}
+
+.you{
+  background-color: hsl(216, 100%, 85%);
+
+  
+}
+.Jim{
+  background-color: hsl(88, 100%, 85%);
+
+  
+}
