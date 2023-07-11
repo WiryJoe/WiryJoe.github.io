@@ -62,11 +62,3 @@ section {
     padding: 25px;
     text-align: center;
 }
-
-@media screen and (max-width:800px){
-    main{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-}
