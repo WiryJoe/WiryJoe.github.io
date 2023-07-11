@@ -1,0 +1,95 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+header {
+background-color: hsl(123, 72%, 43%);
+text-align: center;
+block-size: auto;
+}
+h1 {
+    font-size: 3em;
+}
+
+.navigation ul{
+    
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    text-align:center;
+    position: relative;
+    display: inline-block;
+    
+}
+.navigation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: hsl(209, 73%, 61%);
+}
+.navigation li{
+    float: left;
+}
+.navigation div{
+    width: 100%;
+    text-align: center;
+    background-color: hsl(209, 73%, 41%);
+}
+
+main{
+    margin: 20px;
+}
+
+.welcome .dropdown{
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    padding: 10px 15px;
+    display: none;
+    position: absolute;
+}
+
+.welcome:hover .dropdown{
+    display: block;
+}
+
+.welcome:hover{
+    border: 3px solid;
+}
+
+.creation .dropdown{
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    padding: 10px 15px;
+    display: none;
+    position: absolute;
+}
+
+.creation:hover .dropdown{
+    display: block;
+}
+
+.creation:hover{
+    border: 3px solid;
+}
+
+.stores .dropdown{
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    padding: 10px 15px;
+    display: none;
+    position: absolute;
+}
+
+.stores:hover .dropdown{
+    display: block;
+}
+
+.stores:hover{
+    border: 3px solid;
+}
